@@ -80,7 +80,7 @@ exports.bookinstance_create_post = [
         book_list: allBooks,
         selected_book: bookInstance.book._id,
         errors: errors.array(),
-        bookinstance,
+        bookinstance: bookInstance,
       });
       return;
     } else {
